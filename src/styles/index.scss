@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
 @font-face {
   font-family: 'fontello';
   src: url('../fonts/fontello.eot?580357');
@@ -53,7 +55,6 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
-
 .icon-down:before { content: '\f004'; } /* '' */
 .icon-up:before { content: '\f005'; } /* '' */
 .icon-right:before { content: '\f006'; } /* '' */
@@ -62,7 +63,7 @@
 .icon-facebook:before { content: '\f052'; } /* '' */
 .icon-twitter:before { content: '\f058'; } /* '' */
 .icon-instagram:before { content: '\f05d'; } /* '' */
-.icon-search:before { content: '\f07f'; } /* '' */
+.icon-search:before { content: '\f50d'; } /* '' */
 
 //COLORS
 $green:#32FF00;
@@ -73,24 +74,26 @@ $green2:#ADFE00;
 
 //BORDERS
 .border-full{
-  border:3px solid black;
+  border:3px solid black!important;
 }
 .border-left{
-  border-left:3px solid black;
+  border-left:3px solid black!important;
 }
 .border-right{
-  border-right:3px solid black;
+  border-right:3px solid black!important;
 }
 .border-top{
-  border-top:3px solid black;
+  border-top:3px solid black!important;
 }
 .border-bottom{
-  border-bottom:3px solid black;
+  border-bottom:3px solid black!important;
 }
 .no.border{
-  border:none!important!;
+  border: none!important;
 }
-@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+.border-light{
+  border-color:white!important;
+}
 
 body, html{
     margin: 0;
@@ -98,7 +101,7 @@ body, html{
 }
 body{
     line-height: 32px;
-    color: #818181;
+    color: black;
     letter-spacing: 0.64px;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
@@ -107,7 +110,15 @@ body{
     -webkit-transition: all ease 400ms;
     -moz-transition: all ease 400ms;
 }
-
+.container-fluid {
+  padding: 0px!important;
+  background: white;
+}
+button{
+  font-family: 'Oswald', sans-serif;
+  font-weight:bolder;
+  font-size: 1.6rem;
+}
 /*------------------------------------------------------------------------------
 / 2. Typography Settings
 ------------------------------------------------------------------------------*/
@@ -141,9 +152,9 @@ ul li{
 ------------------------------------------------------------------------------*/
 .btn{
 
-  font-size: 16px;
+  font-size: 1.5rem;
+  border:none;
   font-weight: 400;
-
   height: 70px;
   text-transform: uppercase;
   text-align: center;
@@ -159,47 +170,23 @@ ul li{
   -ms-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   &.dark{
-    background: #000000;
-    color: #fff;
+    background: black;
+    color: white;
   }
-  &.dark{
-    background: #000000;
-    color: #fff;
+  &.light{
+    background: white;
+    color: black;
   }
-}
-.common_btn span {
-  position: relative;
-  z-index: 2;
-}
-.common_btn:after {
-  content: "";
-  width: 4px;
-  height: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: #fff;
-  transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  -webkit-transition: all 0.4s ease-out;
-  -ms-transition: all 0.4s ease-out;
-  -o-transition: all 0.4s ease-out;
-}
-.common_btn:hover:after{
-  width: 100%;
-}
-.common_btn:hover{
-  color: #000;
-}
-.common_btn.red_bg{
-  padding: 28px 40.5px;
-}
-.common_btn.red_bg:after{
-  background: #e62b4a;
-}
-.common_btn.red_bg:hover:after{
-  width: 100%;
-}
-.common_btn.red_bg:hover{
-  color: #fff;
+  &.hover-purple:hover{
+    background:$purple;
+  }
+  &.hover-blue:hover{
+    background:$blue;
+  }
+  &.hover-red:hover{
+    background:$red;
+  }
+  &.hover-green:hover{
+    background:$green;
+  }
 }

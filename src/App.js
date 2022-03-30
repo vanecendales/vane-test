@@ -3,7 +3,6 @@ import React from 'react';
 import "./styles/index.scss";
 import "./styles/animate.css";
 import "./styles/responsive.css";
-import "./styles/fontello.css";
 import "./styles/index.scss";
 
 

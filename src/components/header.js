@@ -31,7 +31,7 @@ function Header() {
           <div className="container-fluid">
             <div className="menu border-right">
                  <a id="open-overlay-nav"  href="#">
-                     <i class="mei-menu"></i></a>
+                     <i class="icon-menu"></i></a>
             </div>
             <div className="logo">
               <a href="./#">
@@ -40,7 +40,7 @@ function Header() {
             </div>
             <div className="search border-left">
             <a class="search searchToggler" href="#">
-              <i class="mei-magnifying-glass"></i>
+              <i class="icon-search"></i>
               </a>                      
             </div>
           </div>
