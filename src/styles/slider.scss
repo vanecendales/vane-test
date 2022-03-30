@@ -1,0 +1,70 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.slider {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: right center;
+  height:100vh;
+  margin-left: 10%;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
+
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+}
+
+
+/*Content*/
+.each-slide{
+
+}
+
+.slider_content {
+  border: 3px solid black;
+  padding: 0;
+  margin: 0;
+  max-width: 400px;
+  min-height: 450px;
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+ font-size: 1.4rem;
+ background: white;
+
+  
+  h2,p{
+    margin: 5px 10px;
+  }
+  
+.btn{
+  width: 100%;
+}
+  
+}
+
+

@@ -1,0 +1,28 @@
+.hero{
+    padding-top:10%;
+    text-align: center;
+
+
+    .hero-button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;   
+    .empty-space {
+        padding:0px 10px;
+    }
+    }
+    &.dark{
+        background:black;
+        color:white;  
+        & h1{
+            color: white;
+            margin-bottom: 100px;
+            font-size: 5rem;
+            line-height: 70px;
+        }
+    }
+    }
+    button.btn.dark.black.hover-green.border-left.border-right.border-light {
+        width: 50%;
+    }

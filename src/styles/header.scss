@@ -1,0 +1,101 @@
+
+/*----------------------------------------------------
+/ 1. Header 01
+------------------------------------------------------*/
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height:80px;
+    z-index: 5;
+    background: transparent;
+    border-bottom: 3px solid rgba(0, 0, 0, 1);
+     div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 0 20px;
+    }
+    h3{
+        margin: 0;
+    }
+
+    .logo {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    i{
+        font-size: 2rem;
+    }
+}
+
+
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.black_color {
+    border-color: #e5e5e5;
+}
+
+.black_color .mainmenu ul li a {
+    color: #000000;
+}
+
+.black_color .mainmenu ul li a:hover {
+    color: #000000;
+}
+
+.black_color .mainmenu ul li a:after {
+    background: #000000;
+}
+
+.black_color .navigator a {
+    color: #000000;
+}
+
+.black_color .navigator a.active,
+.black_color .navigator a:hover {
+    color: #e62b4a;
+}
+
+.fixedHeader {
+    background: #000;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.black_color.fixedHeader {
+    background: #fff;
+}
+
+.black_color .mainmenu ul ul.sub-menu {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.black_color .mainmenu ul ul.sub-menu:before {
+    border-bottom: 5px solid #FFF;
+}
+
+.black_color .mainmenu ul li:hover ul.sub-menu {
+    top: 66px;
+}

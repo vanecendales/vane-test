@@ -1,0 +1,27 @@
+.services-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: end;
+}
+
+.styleDescription {
+    margin: 0 15px;
+    text-align: center;
+    line-height: initial;
+}
+
+.styleCard{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    align-items: baseline;
+    &>div {
+        text-align: center;
+    }
+
+    .border-full {
+        display: grid;
+        grid-template-rows: 3fr 1fr;
+        align-items: center;
+    }
+}
+
