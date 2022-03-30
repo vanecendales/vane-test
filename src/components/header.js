@@ -29,8 +29,8 @@ function Header() {
           }`}
         >
           <div className="container-fluid">
-            <div className="menu border-right">
-                 <a id="open-overlay-nav"  href="#">
+            <div className="menu border-right hover-blue">
+                 <a href="#">
                      <i class="icon-menu"></i></a>
             </div>
             <div className="logo">
@@ -38,8 +38,8 @@ function Header() {
                  VaneCendales
                </a>
             </div>
-            <div className="search border-left">
-            <a class="search searchToggler" href="#">
+            <div className="search border-left hover-red">
+            <a href="#">
               <i class="icon-search"></i>
               </a>                      
             </div>

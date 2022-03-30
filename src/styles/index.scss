@@ -190,3 +190,18 @@ ul li{
     background:$green;
   }
 }
+.hover-purple:hover{
+  background:$purple;
+}
+.hover-blue:hover{
+  background:$blue;
+}
+.hover-red:hover{
+  background:$red;
+}
+.hover-green:hover{
+  background:$green;
+}
+.menu.border-right, .menu.border-left {
+  cursor: pointer;
+}
