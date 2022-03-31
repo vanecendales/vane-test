@@ -16,7 +16,7 @@ Has two versions: 1-mobile responsive 2-desktop the protopype ins included but i
 A little intro about the installation. 
 ```
 $ git clone https://github.com/vanecendales/vane-test.git
-$ cd ../path/to/the/file
+$ cd ../path to.../vane-test
 $ npm install
 $ npm run start
 ```
