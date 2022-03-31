@@ -5,7 +5,8 @@ This is the design made from the wireframe sended for the client. The desgin was
 
 <a  href="https://www.figma.com/file/M3uoApghV3RALNSdHdveit/vaneCendales----Woolish?node-id=0%3A1" name="figmalink">Figma Source</a>
 
-(https://github.com/vanecendales/vane-test/blob/master/src/images/mobile1.png)
+![screenshot mobile](https://github.com/vanecendales/vane-test/blob/master/src/images/mobile1.png)
+![Screenshot](mobile1.png)
 ***
 
 ## Getting Started 
