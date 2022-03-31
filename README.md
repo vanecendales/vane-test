@@ -4,9 +4,6 @@
 This is the design made from the wireframe sended for the client. The desgin was made in FIGMA. Has two versions: 1-mobile responsive 2-desktop the protopype ins included but inly animate the buttons hover change. Here is the link to access to the main source (view only):
 
 <a  href="https://www.figma.com/file/M3uoApghV3RALNSdHdveit/vaneCendales----Woolish?node-id=0%3A1" name="figmalink">Figma Source</a>
-
-![screenshot mobile](https://github.com/vanecendales/vane-test/blob/master/src/images/mobile1.png)
-![Screenshot](mobile1.png)
 ***
 
 ## Getting Started 
@@ -30,3 +27,9 @@ A list of technologies used within the project:
 * [react-tabs](https://www.npmjs.com/package/react-tabs): Version 4.0.1 
 * [sass](https://www.npmjs.com/package/node-sass): Version 1.49.9
 
+***
+# SCREENSHOTS
+
+![Screenshot mobile 1](mobile1.png)
+![Screenshot](mobile2.png)
+![Screenshot](desktop.png)
