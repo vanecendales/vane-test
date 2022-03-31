@@ -5,8 +5,8 @@ This is the design made from the wireframe sended by the client. The design is m
 
 Has two versions: 1-mobile responsive 2-desktop the protopype ins included but inly animate the buttons hover change. Here is the link to access to the main source (view only):
 
-<a  href="https://www.figma.com/file/M3uoApghV3RALNSdHdveit/vaneCendales----Woolish?node-id=0%3A1" name="figmalink">Figma Source</a>
-<a  href="https://www.figma.com/file/M3uoApghV3RALNSdHdveit/vaneCendales----Woolish?node-id=0%3A1" name="figmalink">Screenshot Mobile</a>
+<a  href="https://www.figma.com/file/M3uoApghV3RALNSdHdveit/vaneCendales----Woolish?node-id=0%3A1" name="figmalink">Figma Source</a><br/>
+<a  href="https://www.figma.com/file/M3uoApghV3RALNSdHdveit/vaneCendales----Woolish?node-id=0%3A1" name="figmalink">Screenshot Mobile</a><br/>
 <a  href="https://www.figma.com/file/M3uoApghV3RALNSdHdveit/vaneCendales----Woolish?node-id=0%3A1" name="figmalink">Screenshot Desktop</a>
 ***
 
@@ -16,7 +16,7 @@ Has two versions: 1-mobile responsive 2-desktop the protopype ins included but i
 A little intro about the installation. 
 ```
 $ git clone https://github.com/vanecendales/vane-test.git
-$ cd ../path/to/the/file
+$ cd ../path to.../vane-test
 $ npm install
 $ npm run start
 ```
