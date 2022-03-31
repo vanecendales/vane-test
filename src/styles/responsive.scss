@@ -50,11 +50,11 @@
         background: $red;
     }
     .prod-info .react-tabs {
-        grid-template-columns: 1fr 2.5fr;
+        grid-template-columns: 1fr 2.5fr!important;
     }
     .slider_content {
         margin: 0 auto!important;
-        max-width: 300px;
+        max-width: 300px!important;
     }
     .footer {
         height: auto!important;
@@ -100,6 +100,7 @@
     }
     button.btn.dark.black {
         width: 65%!important;
+        font-size: 1.2rem!important;
     }
     .styleCard {
         display: grid;
