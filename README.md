@@ -1,5 +1,5 @@
 # Design Pruduct Test 
-## - Vanessa Cendales
+##  Vanessa Cendales
 
 This is the design made from the wireframe sended for the client. The desgin was made in FIGMA. Has two versions: 1-mobile responsive 2-desktop the protopype ins included but inly animate the buttons hover change. Here is the link to access to the main source (view only):
 
@@ -30,6 +30,6 @@ A list of technologies used within the project:
 ***
 # SCREENSHOTS
 
-![Screenshot mobile 1](mobile1.png)
-![Screenshot](mobile2.png)
-![Screenshot](desktop.png)
+![Screenshot desktop](https://github.com/vanecendales/vane-test/blob/master/src/images/desktop.png)
+![Screenshot mobile 1](https://github.com/vanecendales/vane-test/blob/master/src/images/mobile1.png)
+![Screenshot mobile 1](https://github.com/vanecendales/vane-test/blob/master/src/images/mobile2.png)
