@@ -24,7 +24,7 @@ function Header() {
         <div
           className={`header main_menu_area ${
             true === sticky
-              ? " stricky stricky-fixed slideInDown animated"
+              ? " sticky stricky-fixed slideInDown animated"
               : " stricky slideIn animated"
           }`}
         >

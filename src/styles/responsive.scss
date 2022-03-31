@@ -1,0 +1,110 @@
+@import 'index.scss';
+
+/* Responsive Devise For XS mobile */
+@media only screen and (max-width: 384px) {
+
+}
+
+@media only screen and (max-width: 320px) {}
+
+/* Responsive Devise For Mobile*/
+@media only screen and (max-width: 480px) {}
+
+/* Responsive Devise For Mobile */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* Responsive Devise For iPad */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Responsive Devise For Laptop */
+@media (min-width: 993px) and (max-width: 1199px) {}
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+@media (min-width: 1201px) and (max-width: 1349px) {}
+
+/* Responsive Devise For small Desktop */
+@media (min-width: 1350px) {}
+
+/* Responsive Devise For Large Desktop */
+@media (max-width: 1800px) and (min-width: 1600px) {}
+
+/* Responsive Devise For Large Desktop */
+@media (max-width: 1920px) and (min-width: 1801px) {}
+
+
+
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1024px) {
+    .services-list {
+        grid-template-columns: 1fr 1fr!important;
+        grid-template-rows: 1fr 1fr!important;
+    }
+    .newsletter {
+        grid-template-columns: 1fr!important;
+        grid-template-rows: 3fr 1fr 1fr!important;
+        .btn{
+            border-left:none!important;
+        }
+    }
+    .prod-info .prod-info-header {
+        grid-template-columns: 1fr!important;
+        padding: 40px 0;
+    }
+    .prod-info .prod-info-header .description {
+        height: auto!important;
+        border:none!important;
+    }
+    
+    .empty-space.border-left.border-bottom {
+        display: none;
+    }
+    .hero.dark h1 {
+        font-size: 6rem!important;
+        line-height: 6rem!important;
+    }
+
+    div#\30, div#\32 {
+        border-left: none!important;
+    }
+}
+@media (max-width: 768px) {
+    .hero.dark h1 {
+        font-size: 4rem!important;
+        line-height: 4rem!important;
+    }
+    .prod-info .react-tabs__tab-panel--selected {
+        grid-template-columns: 1fr!important;
+    }
+    .btn.dark {
+        color: black!important;
+        background: white!important;
+        border-bottom: 3px solid black!important;
+    }
+    .Blog {
+
+        grid-template-columns: 1fr!important;
+
+    }
+    .footer-menu ul {
+        display: grid !important;
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+    }
+    button.btn.dark.black.hover-green.border-left.border-right.border-light {
+        width: 65%!important;
+    }
+}
+@media (max-width: 480px) {
+    .hero.dark h1 {
+        font-size: 3rem!important;
+        line-height: 3rem!important;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr 1fr !important;
+    }
+}

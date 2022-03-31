@@ -1,0 +1,108 @@
+.prod-info{
+    background: #1c1d1f;
+    color: white;
+    box-sizing: border-box;
+    font-weight: 100;
+
+    &.dark{
+        background: black;
+        color:white;
+    }
+    h1{
+        color:white;
+        margin:0;
+        margin-left: 20px;
+    }
+    .prod-info-header {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        align-items: center;
+
+        .description{
+            height: 150px;
+
+        }
+        div{padding:0 20px}
+    } 
+      .react-tabs {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1fr 3fr;
+
+        h2{
+            color:white;
+        }
+        
+      }
+      
+      .react-tabs__tab-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        background: black;
+
+      }
+      
+      .react-tabs__tab {
+        height: 70px;
+        list-style: none;
+        padding: 12px 6px;
+        cursor: pointer;
+        color: white;
+      }
+      
+      .react-tabs__tab--selected {
+        background: white;
+        border-color: white;
+        border-left: 4px solid #00CFFF;;
+        color: black
+      }
+      
+      .react-tabs__tab-panel {
+        display: none;
+        width:100%;
+      }
+      
+      .react-tabs__tab-panel--selected {
+        display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+      
+      .react-tabs__tab {
+        padding-left: 24px;
+        text-align:right;
+      }
+      
+      .react-tabs__tab--selected {
+        padding-left: 21px;
+      }
+      
+      .panel-content {
+        text-align: center;
+
+        h2 {
+            height: 94px;
+            display: flex;
+            align-items: self-end;
+            font-weight: lighter;
+            padding: 0 20px;
+        }
+      }
+      .tab-price {
+        font-size: 3rem;
+        line-height: 3rem;
+        margin: 50px auto 120px;
+        font-weight: 900;
+        &::after{
+          content: "$US";
+        }
+    }  
+    .description {
+        padding: 20px;
+    }
+    button.btn{
+        width: 100%;
+    }
+}
+

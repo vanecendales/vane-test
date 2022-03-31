@@ -10,7 +10,14 @@ export let eventsData = [
       id: 1,
       image: "https://imgur.com/n46IROs.png",
       title:"Lorem Ipsum",
-      description: "The meetup goes to Estonia."
+      description: "The meetup goes to Estonia.",
+      services:[
+        {
+          plan:"Plan A",
+          price:"23.45",
+          description:"lorem upsidfsdf asdfs sd",
+        }
+      ]
     },
     {
       id: 2,
