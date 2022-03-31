@@ -2,8 +2,6 @@
 import React from 'react';
 import './styles/animate.min.css';
 import "./styles/index.scss";
-import "./styles/animate.css";
-import "./styles/index.scss";
 import "./styles/responsive.scss";
 
 

@@ -1,6 +1,5 @@
 import React, { Fragment, useEffect, useState } from "react";
 import "../styles/header.scss";
-import logo from "../images/logo.png";
 
 function Header() {
     const [sticky, setSticky] = useState(false);
