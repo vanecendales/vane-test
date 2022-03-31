@@ -22,7 +22,7 @@ function Header() {
     return (
       <Fragment>
         <div
-          className={`header main_menu_area ${
+          className={`header main_menu_area animate__animated animate__bounce ${
             true === sticky
               ? " sticky stricky-fixed slideInDown animated"
               : " stricky slideIn animated"

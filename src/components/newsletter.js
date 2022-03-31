@@ -5,7 +5,7 @@ import "../styles/news.scss";
 function News() {
 
     return (
-    <div className="newsletter">
+    <div className="newsletter animate__animated animate__bounce">
         <h1 className="light border-bottom"><i class="icon-right"></i>Newsletter</h1>
       <div className="empty-space border-left border-bottom"></div>
       <div className="empty-space border-bottom descrip">keep in touch with all our news <i class="icon-right"></i> <i class="icon-right"></i></div>

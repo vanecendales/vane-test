@@ -8,8 +8,8 @@ function Blog() {
     return (
      <div className="Blog ">
       
-       <div className="Blog-image ">
-       <img src={hand} alt="Logo" />
+       <div className="Blog-image animate__animated animate__slideInLeft animate__delay-1s ">
+       <img src={hand} alt="hand" />
        </div>
        <div className="blog-text"> 
        <h1>Lorem Ipsum Dollor</h1>
