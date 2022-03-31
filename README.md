@@ -31,5 +31,4 @@ A list of technologies used within the project:
 # SCREENSHOTS
 
 ![Screenshot desktop](https://github.com/vanecendales/vane-test/blob/master/src/images/desktop.png)
-![Screenshot mobile 1](https://github.com/vanecendales/vane-test/blob/master/src/images/mobile1.png)
 ![Screenshot mobile 1](https://github.com/vanecendales/vane-test/blob/master/src/images/mobile2.png)
