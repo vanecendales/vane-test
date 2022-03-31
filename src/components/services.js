@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from "../modules/Card";
 import "../styles/services.scss";
 
 export default function Services(props) {

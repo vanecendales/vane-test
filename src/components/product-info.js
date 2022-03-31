@@ -1,7 +1,7 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import Tab1 from "./Tab-1";
-import Tab2 from "./Tab-2";
+import Tab1 from "../modules/Tab-1";
+import Tab2 from "../modules/Tab-2";
 import "../styles/product-info.scss";
 
 function ProductInfo() {
