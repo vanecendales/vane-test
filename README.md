@@ -1,7 +1,9 @@
 # Design Product Test 
 ## Vanessa Cendales
 
-This is the design made from the wireframe sended by the client. The desgin was made in FIGMA. Has two versions: 1-mobile responsive 2-desktop the protopype ins included but inly animate the buttons hover change. Here is the link to access to the main source (view only):
+This is the design made from the wireframe sended by the client. The design is made in FIGMA. I choose a free subject for the design because I want to explore new options in design, more free in concept terms.
+
+Has two versions: 1-mobile responsive 2-desktop the protopype ins included but inly animate the buttons hover change. Here is the link to access to the main source (view only):
 
 <a  href="https://www.figma.com/file/M3uoApghV3RALNSdHdveit/vaneCendales----Woolish?node-id=0%3A1" name="figmalink">Figma Source</a>
 <a  href="https://www.figma.com/file/M3uoApghV3RALNSdHdveit/vaneCendales----Woolish?node-id=0%3A1" name="figmalink">Screenshot Mobile</a>
